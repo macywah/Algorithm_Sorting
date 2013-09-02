@@ -1,4 +1,3 @@
-
 public class MergeSort {
 
 	public static void main(String[] args) 
@@ -6,10 +5,10 @@ public class MergeSort {
 		int[] s = {3,6,15,9,7,1,4,3};
 		printArray(s);
 	    
-	  int[] output = mergesort(s);
+	        int[] output = mergesort(s);
 	    
-	  System.out.println("\nSorted: ");
-	  printArray(output);
+	        System.out.println("\nSorted: ");
+	        printArray(output);
 	}
 	
 	public static int[] mergesort(int[] s)
