@@ -49,7 +49,7 @@ public class MergeSort {
 			}else
 			{
 				sorted[i] = s2[k];
-			  k++;
+			        k++;
 			}
 			i++;
 		}
