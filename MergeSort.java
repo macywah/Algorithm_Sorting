@@ -2,11 +2,11 @@ public class MergeSort {
 
 	public static void main(String[] args) 
 	{
-		//unsort data
+		//unsorted data
 		int[] s = {3,6,15,9,7,1,4,3};
 		printArray(s);
 	    
-	        //call mergesort method
+	        //call merge sort method
 	        int[] output = mergesort(s);
 	    
 	        System.out.println("\nSorted: ");
