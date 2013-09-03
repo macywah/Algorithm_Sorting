@@ -1,4 +1,3 @@
-
 public class SelectionSort {
 
 	public static void main(String[] args)
@@ -24,15 +23,15 @@ public class SelectionSort {
 			min = i;
 			for(int j=i; j<s.length; j++)
 			{
-				if(s[min] > s[j])
+			        if(s[min] > s[j])
 				{
 					min = j;
 				}
 				
 				//swap s[i] and s[min]
-			    temp = s[i];
-			    s[i] = s[min];
-			    s[min] = temp;
+			        temp = s[i];
+			        s[i] = s[min];
+			        s[min] = temp;
 			}
 		}
 	}
